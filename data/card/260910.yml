@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.60.1"
   latestRelease: "v1.60.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:04:55Z
+  collectedAt: 2026-09-10T22:42:17Z
 timeline:
   created: 2018-11-15
   lastCommit: 2026-09-10
@@ -86,7 +86,7 @@ total:
   commit: 2110
 ---
 path: /home/runner/.x-repo/github.com/Canop/broot
-collectedAt: 2026-09-10T21:04:58Z
+collectedAt: 2026-09-10T22:42:20Z
 loc:
   Rust:
     code: 35180
