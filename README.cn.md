@@ -4,7 +4,7 @@
 
 A new way to see and navigate directory trees
 
-![broot](https://repo.x-cmd.io/broot.svg)
+![broot](https://repo.x-cmd.io/broot.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,16 @@ x install broot
 - **最新版本**: `v1.60.1` (2026-09-08)
 - **最近提交**: 2026-09-08
 - **Release 含资产**: 1 个
-- **发布时间**: 2026-09-08T19:10:04Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [broot_1.60.1.zip](https://github.com/Canop/broot/releases/download/v1.60.1/broot_1.60.1.zip) | 65.5 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 12,936 · **Fork**: 314 · **开放 issue**: 827 · **贡献者**: 124
+- **Star**: 12,935 · **Fork**: 314 · **开放 issue**: 827 · **贡献者**: 124
 
 ## 累计统计
 
@@ -72,4 +77,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:52:49Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:44:31Z._
