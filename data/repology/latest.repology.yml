@@ -1,28 +1,16 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: broot
-  binname: broot
-  visiblename: broot
+  binname: broot-doc
+  visiblename: broot-doc
   version: 1.16.2
   origversion: 1.16.2-r0
   status: outdated
-  summary: New way to see and navigate directory trees
+  summary: New way to see and navigate directory trees (documentation)
   maintainers:
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: pkgsrc_current
-  srcname: sysutils/broot
-  binname: broot
-  visiblename: sysutils/broot
-  version: 1.60.0
-  origversion: null
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: alpine_3_17
   subrepo: community
   srcname: broot
@@ -36,260 +24,274 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: alpine_3_17
-  subrepo: community
+- repo: arch
+  subrepo: extra
   srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.16.2
-  origversion: 1.16.2-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.16.2
-  origversion: 1.16.2-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.16.2
-  origversion: 1.16.2-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.21.3
-  origversion: 1.21.3-r0
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.21.3
-  origversion: 1.21.3-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.21.3
-  origversion: 1.21.3-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.21.3
-  origversion: 1.21.3-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.21.3
-  origversion: 1.21.3-r0
-  status: outdated
-  summary: Zsh completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.29.0
-  origversion: 1.29.0-r0
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.29.0
-  origversion: 1.29.0-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.29.0
-  origversion: 1.29.0-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.29.0
-  origversion: 1.29.0-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.29.0
-  origversion: 1.29.0-r0
-  status: outdated
-  summary: Zsh completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.36.1
-  origversion: 1.36.1-r0
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.36.1
-  origversion: 1.36.1-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.36.1
-  origversion: 1.36.1-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.36.1
-  origversion: 1.36.1-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.36.1
-  origversion: 1.36.1-r0
-  status: outdated
-  summary: Zsh completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.44.2
-  origversion: 1.44.2-r1
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
   binname: broot
   visiblename: broot
   version: 1.60.1
-  origversion: null
+  origversion: 1.60.1-1
   status: newest
+  summary: Fuzzy Search + tree + cd
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: broot
+  visiblename: broot
+  version: 1.22.1
+  origversion: 1.22.1-bp156.2.8
+  status: outdated
+  summary: A better way to navigate directories
+  licenses:
+    - GPL-2.0-only AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+- repo: alpine_3_17
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.16.2
+  origversion: 1.16.2-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.16.2
+  origversion: 1.16.2-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.16.2
+  origversion: 1.16.2-r0
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.21.3
+  origversion: 1.21.3-r0
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.21.3
+  origversion: 1.21.3-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: broot
+  binname: broot-doc
+  visiblename: broot-doc
+  version: 1.21.3
+  origversion: 1.21.3-r0
+  status: outdated
+  summary: New way to see and navigate directory trees (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.21.3
+  origversion: 1.21.3-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.21.3
+  origversion: 1.21.3-r0
+  status: outdated
+  summary: Zsh completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.29.0
+  origversion: 1.29.0-r0
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.29.0
+  origversion: 1.29.0-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: broot
+  binname: broot-doc
+  visiblename: broot-doc
+  version: 1.29.0
+  origversion: 1.29.0-r0
+  status: outdated
+  summary: New way to see and navigate directory trees (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.29.0
+  origversion: 1.29.0-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.29.0
+  origversion: 1.29.0-r0
+  status: outdated
+  summary: Zsh completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.36.1
+  origversion: 1.36.1-r0
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.36.1
+  origversion: 1.36.1-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: broot
+  binname: broot-doc
+  visiblename: broot-doc
+  version: 1.36.1
+  origversion: 1.36.1-r0
+  status: outdated
+  summary: New way to see and navigate directory trees (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.36.1
+  origversion: 1.36.1-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.36.1
+  origversion: 1.36.1-r0
+  status: outdated
+  summary: Zsh completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.44.2
+  origversion: 1.44.2-r1
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
   licenses:
     - MIT
 - repo: alpine_3_21
@@ -422,133 +424,132 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: solus
+- repo: alpine_3_23
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.46.4
+  origversion: 1.46.4-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: broot
+  binname: broot-doc
+  visiblename: broot-doc
+  version: 1.46.4
+  origversion: 1.46.4-r0
+  status: outdated
+  summary: New way to see and navigate directory trees (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.46.4
+  origversion: 1.46.4-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.46.4
+  origversion: 1.46.4-r0
+  status: outdated
+  summary: Zsh completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.54.0
+  origversion: 1.54.0-r0
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: broot
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
+  version: 1.54.0
+  origversion: 1.54.0-r0
+  status: outdated
+  summary: Bash completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: broot
+  binname: broot-doc
+  visiblename: broot-doc
+  version: 1.54.0
+  origversion: 1.54.0-r0
+  status: outdated
+  summary: New way to see and navigate directory trees (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: broot
+  binname: broot-fish-completion
+  visiblename: broot-fish-completion
+  version: 1.54.0
+  origversion: 1.54.0-r0
+  status: outdated
+  summary: Fish completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.54.0
+  origversion: 1.54.0-r0
+  status: outdated
+  summary: Zsh completions for broot
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
   srcname: broot
   binname: broot
   visiblename: broot
   version: 1.59.0
-  origversion: null
-  status: outdated
-  summary: A new way to see and navigate directory trees
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - system.utils
-- repo: alpine_3_23
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.46.4
-  origversion: 1.46.4-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.46.4
-  origversion: 1.46.4-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.46.4
-  origversion: 1.46.4-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.46.4
-  origversion: 1.46.4-r0
-  status: outdated
-  summary: Zsh completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.54.0
-  origversion: 1.54.0-r0
+  origversion: 1.59.0-r0
   status: outdated
   summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.54.0
-  origversion: 1.54.0-r0
-  status: outdated
-  summary: Bash completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: broot
-  binname: broot-doc
-  visiblename: broot-doc
-  version: 1.54.0
-  origversion: 1.54.0-r0
-  status: outdated
-  summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: broot
-  binname: broot-fish-completion
-  visiblename: broot-fish-completion
-  version: 1.54.0
-  origversion: 1.54.0-r0
-  status: outdated
-  summary: Fish completions for broot
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.54.0
-  origversion: 1.54.0-r0
-  status: outdated
-  summary: Zsh completions for broot
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -556,37 +557,10 @@
 - repo: alpine_edge
   subrepo: community
   srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.58.0
-  origversion: 1.58.0-r0
-  status: outdated
-  summary: New way to see and navigate directory trees
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: solus
-  srcname: broot
-  binname: broot-dbginfo
-  visiblename: broot-dbginfo
+  binname: broot-bash-completion
+  visiblename: broot-bash-completion
   version: 1.59.0
-  origversion: null
-  status: outdated
-  summary: Debug symbols for broot
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - debug
-- repo: alpine_edge
-  subrepo: community
-  srcname: broot
-  binname: broot-bash-completion
-  visiblename: broot-bash-completion
-  version: 1.58.0
-  origversion: 1.58.0-r0
+  origversion: 1.59.0-r0
   status: outdated
   summary: Bash completions for broot
   maintainers:
@@ -598,8 +572,8 @@
   srcname: broot
   binname: broot-doc
   visiblename: broot-doc
-  version: 1.58.0
-  origversion: 1.58.0-r0
+  version: 1.59.0
+  origversion: 1.59.0-r0
   status: outdated
   summary: New way to see and navigate directory trees (documentation)
   maintainers:
@@ -611,8 +585,8 @@
   srcname: broot
   binname: broot-fish-completion
   visiblename: broot-fish-completion
-  version: 1.58.0
-  origversion: 1.58.0-r0
+  version: 1.59.0
+  origversion: 1.59.0-r0
   status: outdated
   summary: Fish completions for broot
   maintainers:
@@ -624,8 +598,8 @@
   srcname: broot
   binname: broot-zsh-completion
   visiblename: broot-zsh-completion
-  version: 1.58.0
-  origversion: 1.58.0-r0
+  version: 1.59.0
+  origversion: 1.59.0-r0
   status: outdated
   summary: Zsh completions for broot
   maintainers:
@@ -663,17 +637,6 @@
     - MIT
   categories:
     - File tools
-- repo: arch
-  subrepo: extra
-  srcname: broot
-  binname: broot
-  visiblename: broot
-  version: 1.60.1
-  origversion: 1.60.1-1
-  status: newest
-  summary: Fuzzy Search + tree + cd
-  licenses:
-    - MIT
 - repo: aur
   srcname: broot-git
   binname: broot-git
@@ -1047,9 +1010,9 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.60.0
-  origversion: 1.60.0-1
-  status: outdated
+  version: 1.60.1
+  origversion: 1.60.1-1
+  status: newest
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -1058,9 +1021,9 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.60.0
-  origversion: 1.60.0-1
-  status: outdated
+  version: 1.60.1
+  origversion: 1.60.1-1
+  status: newest
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -1154,18 +1117,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: broot
-  visiblename: broot
-  version: 1.22.1
-  origversion: 1.22.1-bp156.2.8
-  status: outdated
-  summary: A better way to navigate directories
-  licenses:
-    - GPL-2.0-only AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: broot
@@ -1247,6 +1198,18 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/broot
+  binname: broot
+  visiblename: sysutils/broot
+  version: 1.60.0
+  origversion: null
+  status: outdated
+  summary: New way to see and navigate directory trees
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-broot
@@ -1308,6 +1271,43 @@
     - GPL-2.0-only AND MIT AND MPL-2.0
   categories:
     - File tools
+- repo: scoop
+  subrepo: main
+  binname: broot
+  visiblename: broot
+  version: 1.60.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: solus
+  srcname: broot
+  binname: broot
+  visiblename: broot
+  version: 1.60.1
+  origversion: null
+  status: newest
+  summary: A new way to see and navigate directory trees
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: solus
+  srcname: broot
+  binname: broot-dbginfo
+  visiblename: broot-dbginfo
+  version: 1.60.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for broot
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - debug
 - repo: termux
   srcname: broot
   binname: broot
