@@ -14,13 +14,13 @@ x install broot
 
 ## Code insight
 
-Total: **37,291** lines of code across **261** files in the top 5 languages.
+Total: **37,297** lines of code across **261** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 35,180 | 1,065 | 1,964 | 236 |
 | Css | 704 | 20 | 42 | 3 |
-| Sh | 457 | 177 | 70 | 10 |
+| Sh | 463 | 180 | 74 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
 | Svg | 292 | 0 | 1 | 9 |
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.60.1` (2026-09-08)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-11
 - **Assets in release**: 1
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 225 · **Merged PRs**: 286 · **Open PRs**: 8 · **Closed issues**: 733 · **Open issues**: 94 · **Commits**: 2110
+- **Releases**: 225 · **Merged PRs**: 286 · **Open PRs**: 8 · **Closed issues**: 733 · **Open issues**: 94 · **Commits**: 2111
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 3 | 10 | 1 | 2 | 5 | 59 |
-| last60d | 2026-07-13 | 3 | 20 | 1 | 6 | 5 | 80 |
-| 90d | 2026-06-13 | 4 | 24 | 1 | 10 | 5 | 97 |
-| last180d | 2026-03-15 | 10 | 35 | 3 | 21 | 7 | 129 |
-| 360d | 2025-09-16 | 16 | 65 | 4 | 56 | 15 | 232 |
-| last720d | 2024-09-21 | 35 | 104 | 4 | 106 | 28 | 402 |
+| 30d | 2026-08-12 | 3 | 10 | 1 | 2 | 5 | 60 |
+| last60d | 2026-07-13 | 3 | 20 | 1 | 6 | 5 | 81 |
+| 90d | 2026-06-13 | 4 | 24 | 1 | 10 | 5 | 98 |
+| last180d | 2026-03-15 | 10 | 35 | 3 | 21 | 7 | 130 |
+| 360d | 2025-09-16 | 16 | 65 | 4 | 56 | 15 | 233 |
+| last720d | 2024-09-21 | 35 | 104 | 4 | 106 | 28 | 403 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **103** distros on [repology.org](https://repology.org/project/broot). **5** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
+Reported by **103** distros on [repology.org](https://repology.org/project/broot). **9** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,7 +85,7 @@ Reported by **103** distros on [repology.org](https://repology.org/project/broot
 | Homebrew | `1.60.1` | ✅ latest |
 | Nix unstable | `1.59.0` | ⚠️ outdated |
 | Void | `1.56.2` | ⚠️ outdated |
-| Alpine edge | `1.58.0` | ⚠️ outdated |
+| Alpine edge | `1.59.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.59.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:55:24Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:10:53Z._
