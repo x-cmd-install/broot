@@ -14,11 +14,11 @@ x install broot
 
 ## 代码洞察
 
-合计: **37,297** 行代码（覆盖前 5 种语言、共 **261** 个文件）。
+合计: **37,445** 行代码（覆盖前 5 种语言、共 **261** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 35,180 | 1,065 | 1,964 | 236 |
+| Rust | 35,328 | 1,069 | 1,974 | 236 |
 | Css | 704 | 20 | 42 | 3 |
 | Sh | 463 | 180 | 74 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
@@ -30,9 +30,9 @@ x install broot
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 0/26 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/23 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -43,50 +43,33 @@ x install broot
 ## 发布
 
 - **最新版本**: `v1.60.1` (2026-09-08)
-- **最近提交**: 2026-09-11
+- **最近提交**: 2026-09-13
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 12,937 · **Fork**: 314 · **开放 issue**: 827 · **贡献者**: 124
+- **Star**: 12,938 · **Fork**: 314 · **开放 issue**: 827 · **贡献者**: 124
 
 ## 累计统计
 
-- **发布数**: 225 · **已合并 PR**: 286 · **开放 PR**: 8 · **已关闭 issue**: 733 · **开放 issue**: 94 · **提交数**: 2111
+- **发布数**: 225 · **已合并 PR**: 286 · **开放 PR**: 8 · **已关闭 issue**: 734 · **开放 issue**: 93 · **提交数**: 2112
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 3 | 8 | 1 | 2 | 5 | 60 |
-| last60d | 2026-07-15 | 3 | 20 | 1 | 6 | 5 | 81 |
-| 90d | 2026-06-15 | 4 | 24 | 1 | 10 | 5 | 98 |
-| last180d | 2026-03-17 | 10 | 35 | 3 | 21 | 7 | 130 |
-| 360d | 2025-09-18 | 16 | 64 | 4 | 56 | 15 | 233 |
-| last720d | 2024-09-23 | 35 | 104 | 4 | 105 | 28 | 401 |
+| 30d | 2026-08-15 | 3 | 7 | 1 | 3 | 4 | 41 |
+| last60d | 2026-07-16 | 3 | 20 | 1 | 7 | 4 | 67 |
+| 90d | 2026-06-16 | 4 | 23 | 1 | 11 | 4 | 96 |
+| last180d | 2026-03-18 | 10 | 35 | 3 | 21 | 6 | 125 |
+| 360d | 2025-09-19 | 16 | 64 | 4 | 57 | 14 | 228 |
+| last720d | 2024-09-24 | 35 | 104 | 4 | 106 | 27 | 401 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [broot_1.60.1.zip](https://github.com/Canop/broot/releases/download/v1.60.1/broot_1.60.1.zip) | 65.5 MiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/broot) 上共有 **103** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**87** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.57.0` | ⚠️ outdated |
-| Debian 14 | `1.57.0` | ⚠️ outdated |
-| Debian 13 | `1.46.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
-| Arch | `1.60.1` | ✅ latest |
-| Homebrew | `1.60.1` | ✅ latest |
-| Nix unstable | `1.59.0` | ⚠️ outdated |
-| Void | `1.56.2` | ⚠️ outdated |
-| Alpine edge | `1.59.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.59.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -97,4 +80,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:03:41Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:08:02Z._
