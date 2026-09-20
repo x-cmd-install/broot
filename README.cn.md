@@ -4,7 +4,7 @@
 
 A new way to see and navigate directory trees
 
-![broot](https://repo.x-cmd.io/broot.svg?lang=zh)
+[![x-cmd/install — broot Code Quality Monitoring Repo Card](https://repo.x-cmd.io/broot.svg?lang=zh)](https://x-cmd.com/install/broot)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install broot
 
 ## 流行度
 
-- **Star**: 12,943 · **Fork**: 315 · **开放 issue**: 827 · **贡献者**: 124
+- **Star**: 12,947 · **Fork**: 316 · **开放 issue**: 827 · **贡献者**: 124
 
 ## 累计统计
 
-- **发布数**: 225 · **已合并 PR**: 286 · **开放 PR**: 8 · **已关闭 issue**: 735 · **开放 issue**: 92 · **提交数**: 2112
+- **发布数**: 225 · **已合并 PR**: 286 · **开放 PR**: 9 · **已关闭 issue**: 735 · **开放 issue**: 92 · **提交数**: 2112
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 3 | 4 | 0 | 3 | 4 | 41 |
-| last60d | 2026-07-20 | 3 | 17 | 1 | 7 | 4 | 67 |
-| 90d | 2026-06-20 | 4 | 23 | 1 | 11 | 4 | 96 |
-| last180d | 2026-03-22 | 8 | 35 | 3 | 18 | 6 | 125 |
-| 360d | 2025-09-23 | 16 | 62 | 4 | 57 | 13 | 228 |
-| last720d | 2024-09-28 | 35 | 103 | 4 | 105 | 27 | 398 |
+| 30d | 2026-08-21 | 3 | 4 | 1 | 3 | 4 | 41 |
+| last60d | 2026-07-22 | 3 | 17 | 2 | 7 | 4 | 67 |
+| 90d | 2026-06-22 | 4 | 23 | 2 | 11 | 4 | 96 |
+| last180d | 2026-03-24 | 8 | 35 | 4 | 18 | 6 | 125 |
+| 360d | 2025-09-25 | 16 | 61 | 5 | 56 | 12 | 228 |
+| last720d | 2024-09-30 | 35 | 103 | 5 | 105 | 27 | 398 |
 
 ## Release 资产
 
@@ -80,4 +80,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:57:13Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:13:05Z._
