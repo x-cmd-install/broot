@@ -14,11 +14,11 @@ x install broot
 
 ## Code insight
 
-Total: **37,143** lines of code across **261** files in the top 5 languages.
+Total: **36,932** lines of code across **255** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 35,028 | 1,013 | 1,930 | 236 |
+| Rust | 34,831 | 1,011 | 1,916 | 230 |
 | Css | 704 | 20 | 42 | 3 |
 | Sh | 463 | 180 | 74 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
@@ -42,34 +42,34 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.60.1` (2026-09-08)
-- **Last commit**: 2026-09-23
+- **Latest**: `v1.60.2` (2026-09-26)
+- **Last commit**: 2026-09-26
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,965 · **Forks**: 318 · **Open issues**: 827 · **Contributors**: 125
+- **Stars**: 12,970 · **Forks**: 318 · **Open issues**: 827 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 225 · **Merged PRs**: 287 · **Open PRs**: 9 · **Closed issues**: 735 · **Open issues**: 92 · **Commits**: 2117
+- **Releases**: 226 · **Merged PRs**: 288 · **Open PRs**: 8 · **Closed issues**: 735 · **Open issues**: 92 · **Commits**: 2125
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 2 | 5 | 1 | 3 | 3 | 35 |
-| last60d | 2026-07-28 | 3 | 17 | 2 | 7 | 4 | 71 |
-| 90d | 2026-06-28 | 4 | 23 | 2 | 11 | 4 | 91 |
-| last180d | 2026-03-30 | 7 | 35 | 4 | 18 | 6 | 126 |
-| 360d | 2025-10-01 | 15 | 62 | 5 | 52 | 10 | 222 |
-| last720d | 2024-10-06 | 35 | 104 | 5 | 105 | 27 | 403 |
+| 30d | 2026-08-28 | 3 | 5 | 0 | 3 | 3 | 41 |
+| last60d | 2026-07-29 | 4 | 18 | 1 | 7 | 4 | 77 |
+| 90d | 2026-06-29 | 5 | 24 | 1 | 11 | 4 | 97 |
+| last180d | 2026-03-31 | 8 | 36 | 3 | 18 | 6 | 132 |
+| 360d | 2025-10-02 | 16 | 60 | 4 | 51 | 10 | 228 |
+| last720d | 2024-10-07 | 36 | 105 | 4 | 105 | 27 | 411 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [broot_1.60.1.zip](https://github.com/Canop/broot/releases/download/v1.60.1/broot_1.60.1.zip) | 65.5 MiB | `other` |
+| [broot_1.60.2.zip](https://github.com/Canop/broot/releases/download/v1.60.2/broot_1.60.2.zip) | 64.7 MiB | `other` |
 
 ## Improve this data
 
@@ -80,4 +80,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:05:57Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:28:04Z._
