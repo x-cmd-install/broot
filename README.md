@@ -14,13 +14,13 @@ x install broot
 
 ## Code insight
 
-Total: **36,932** lines of code across **255** files in the top 5 languages.
+Total: **36,933** lines of code across **255** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 34,831 | 1,011 | 1,916 | 230 |
 | Css | 704 | 20 | 42 | 3 |
-| Sh | 463 | 180 | 74 | 10 |
+| Sh | 464 | 181 | 75 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
 | Svg | 292 | 0 | 1 | 9 |
 
@@ -30,8 +30,8 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 2/28 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.60.2` (2026-09-26)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-09-28
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,970 · **Forks**: 318 · **Open issues**: 827 · **Contributors**: 126
+- **Stars**: 12,994 · **Forks**: 319 · **Open issues**: 828 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 226 · **Merged PRs**: 288 · **Open PRs**: 8 · **Closed issues**: 735 · **Open issues**: 92 · **Commits**: 2125
+- **Releases**: 226 · **Merged PRs**: 288 · **Open PRs**: 8 · **Closed issues**: 736 · **Open issues**: 92 · **Commits**: 2126
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 3 | 5 | 0 | 3 | 3 | 41 |
-| last60d | 2026-07-29 | 4 | 18 | 1 | 7 | 4 | 77 |
-| 90d | 2026-06-29 | 5 | 24 | 1 | 11 | 4 | 97 |
-| last180d | 2026-03-31 | 8 | 36 | 3 | 18 | 6 | 132 |
-| 360d | 2025-10-02 | 16 | 60 | 4 | 51 | 10 | 228 |
-| last720d | 2024-10-07 | 36 | 105 | 4 | 105 | 27 | 411 |
+| 30d | 2026-08-29 | 3 | 5 | 0 | 4 | 3 | 30 |
+| last60d | 2026-07-30 | 4 | 18 | 1 | 8 | 4 | 78 |
+| 90d | 2026-06-30 | 5 | 24 | 1 | 12 | 4 | 97 |
+| last180d | 2026-04-01 | 8 | 36 | 3 | 18 | 6 | 129 |
+| 360d | 2025-10-03 | 16 | 60 | 4 | 52 | 10 | 219 |
+| last720d | 2024-10-08 | 36 | 105 | 4 | 106 | 27 | 410 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:28:04Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:40:02Z._
