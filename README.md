@@ -14,11 +14,11 @@ x install broot
 
 ## Code insight
 
-Total: **36,933** lines of code across **255** files in the top 5 languages.
+Total: **36,975** lines of code across **255** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 34,831 | 1,011 | 1,916 | 230 |
+| Rust | 34,873 | 1,011 | 1,916 | 230 |
 | Css | 704 | 20 | 42 | 3 |
 | Sh | 464 | 181 | 75 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,994 · **Forks**: 319 · **Open issues**: 828 · **Contributors**: 126
+- **Stars**: 13,015 · **Forks**: 321 · **Open issues**: 828 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 226 · **Merged PRs**: 288 · **Open PRs**: 8 · **Closed issues**: 736 · **Open issues**: 92 · **Commits**: 2126
+- **Releases**: 226 · **Merged PRs**: 288 · **Open PRs**: 8 · **Closed issues**: 736 · **Open issues**: 92 · **Commits**: 2128
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 3 | 5 | 0 | 4 | 3 | 30 |
-| last60d | 2026-07-30 | 4 | 18 | 1 | 8 | 4 | 78 |
-| 90d | 2026-06-30 | 5 | 24 | 1 | 12 | 4 | 97 |
-| last180d | 2026-04-01 | 8 | 36 | 3 | 18 | 6 | 129 |
-| 360d | 2025-10-03 | 16 | 60 | 4 | 52 | 10 | 219 |
-| last720d | 2024-10-08 | 36 | 105 | 4 | 106 | 27 | 410 |
+| 30d | 2026-08-30 | 3 | 5 | 0 | 4 | 3 | 0 |
+| last60d | 2026-07-31 | 4 | 18 | 1 | 8 | 4 | 0 |
+| 90d | 2026-07-01 | 5 | 24 | 1 | 11 | 4 | 0 |
+| last180d | 2026-04-02 | 8 | 36 | 3 | 18 | 6 | 0 |
+| 360d | 2025-10-04 | 16 | 59 | 4 | 51 | 10 | 0 |
+| last720d | 2024-10-09 | 36 | 105 | 4 | 106 | 27 | 412 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:40:02Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:52:53Z._
