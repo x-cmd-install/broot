@@ -26,12 +26,12 @@ Total: **37,040** lines of code across **255** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.4 / 10**
+Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (1/10) — Found 3/28 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 2/28 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,036 · **Forks**: 321 · **Open issues**: 830 · **Contributors**: 126
+- **Stars**: 13,039 · **Forks**: 321 · **Open issues**: 830 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 227 · **Merged PRs**: 289 · **Open PRs**: 7 · **Closed issues**: 736 · **Open issues**: 94 · **Commits**: 2135
+- **Releases**: 227 · **Merged PRs**: 289 · **Open PRs**: 8 · **Closed issues**: 736 · **Open issues**: 94 · **Commits**: 2135
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 4 | 2 | 0 | 3 | 2 | 38 |
-| last60d | 2026-08-05 | 5 | 19 | 0 | 8 | 6 | 86 |
-| 90d | 2026-07-06 | 6 | 24 | 0 | 8 | 6 | 105 |
-| last180d | 2026-04-07 | 9 | 34 | 2 | 18 | 8 | 137 |
-| 360d | 2025-10-09 | 16 | 60 | 3 | 48 | 11 | 227 |
-| last720d | 2024-10-14 | 37 | 106 | 3 | 106 | 29 | 412 |
+| 30d | 2026-09-05 | 4 | 2 | 1 | 3 | 2 | 21 |
+| last60d | 2026-08-06 | 5 | 18 | 1 | 7 | 6 | 83 |
+| 90d | 2026-07-07 | 6 | 24 | 1 | 8 | 6 | 101 |
+| last180d | 2026-04-08 | 9 | 34 | 3 | 18 | 8 | 134 |
+| 360d | 2025-10-10 | 16 | 60 | 4 | 48 | 11 | 223 |
+| last720d | 2024-10-15 | 37 | 106 | 4 | 106 | 28 | 412 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:58:45Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:46:43Z._
