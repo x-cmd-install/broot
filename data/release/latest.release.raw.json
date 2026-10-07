@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 67984014,
       "digest": "sha256:6cafe8e993fb8e5684eb25549703a4fb9dec61ac6a8f1947cbed6566cb4e58e5",
-      "download_count": 539,
+      "download_count": 696,
       "created_at": "2026-10-03T13:00:39Z",
       "updated_at": "2026-10-03T13:01:02Z",
       "browser_download_url": "https://github.com/Canop/broot/releases/download/v1.61.0/broot_1.61.0.zip"
