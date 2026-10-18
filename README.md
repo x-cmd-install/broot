@@ -14,13 +14,13 @@ x install broot
 
 ## Code insight
 
-Total: **38,181** lines of code across **264** files in the top 5 languages.
+Total: **38,247** lines of code across **264** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 36,071 | 1,022 | 1,976 | 239 |
 | Css | 704 | 20 | 42 | 3 |
-| Sh | 464 | 181 | 75 | 10 |
+| Sh | 530 | 189 | 83 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
 | Svg | 292 | 0 | 1 | 9 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.61.0` (2026-10-03)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-17
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 13,074 · **Forks**: 326 · **Open issues**: 832 · **Contributors**: 128
+- **Stars**: 13,080 · **Forks**: 326 · **Open issues**: 832 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 227 · **Merged PRs**: 290 · **Open PRs**: 10 · **Closed issues**: 737 · **Open issues**: 95 · **Commits**: 2154
+- **Releases**: 227 · **Merged PRs**: 290 · **Open PRs**: 10 · **Closed issues**: 737 · **Open issues**: 95 · **Commits**: 2155
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 2 | 3 | 3 | 2 | 3 | 37 |
-| last60d | 2026-08-18 | 5 | 8 | 3 | 5 | 7 | 79 |
-| 90d | 2026-07-19 | 5 | 22 | 3 | 9 | 7 | 104 |
-| last180d | 2026-04-20 | 9 | 34 | 5 | 18 | 7 | 152 |
-| 360d | 2025-10-22 | 16 | 58 | 6 | 42 | 12 | 240 |
-| last720d | 2024-10-27 | 35 | 106 | 6 | 105 | 29 | 423 |
+| 30d | 2026-09-18 | 2 | 3 | 3 | 2 | 3 | 34 |
+| last60d | 2026-08-19 | 5 | 7 | 3 | 5 | 7 | 69 |
+| 90d | 2026-07-20 | 5 | 21 | 3 | 9 | 7 | 105 |
+| last180d | 2026-04-21 | 9 | 34 | 5 | 18 | 7 | 152 |
+| 360d | 2025-10-23 | 16 | 58 | 6 | 42 | 12 | 233 |
+| last720d | 2024-10-28 | 35 | 106 | 6 | 105 | 29 | 424 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T04:34:36Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T04:39:11Z._
