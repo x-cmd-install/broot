@@ -26,13 +26,13 @@ x install broot
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.4 / 10**
+总评分: **3.5 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install broot
 
 ## 流行度
 
-- **Star**: 13,096 · **Fork**: 327 · **开放 issue**: 833 · **贡献者**: 128
+- **Star**: 13,098 · **Fork**: 327 · **开放 issue**: 833 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install broot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 2 | 2 | 4 | 3 | 3 | 38 |
-| last60d | 2026-08-26 | 4 | 8 | 4 | 6 | 6 | 73 |
-| 90d | 2026-07-27 | 5 | 21 | 4 | 10 | 7 | 109 |
-| last180d | 2026-04-28 | 9 | 35 | 5 | 19 | 7 | 156 |
-| 360d | 2025-10-30 | 16 | 58 | 7 | 41 | 12 | 237 |
-| last720d | 2024-11-04 | 35 | 107 | 7 | 106 | 29 | 427 |
+| 30d | 2026-09-26 | 2 | 2 | 4 | 3 | 3 | 28 |
+| last60d | 2026-08-27 | 4 | 8 | 4 | 6 | 6 | 61 |
+| 90d | 2026-07-28 | 5 | 21 | 4 | 10 | 7 | 109 |
+| last180d | 2026-04-29 | 9 | 35 | 5 | 19 | 7 | 156 |
+| 360d | 2025-10-31 | 16 | 57 | 7 | 41 | 12 | 227 |
+| last720d | 2024-11-05 | 35 | 107 | 7 | 106 | 29 | 427 |
 
 ## Release 资产
 
@@ -97,4 +97,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261025.yml` · 2026-10-25T04:49:17Z._
+_数据快照: `data/card/261026.yml` · 2026-10-26T04:54:31Z._
