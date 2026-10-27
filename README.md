@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,098 · **Forks**: 327 · **Open issues**: 833 · **Contributors**: 128
+- **Stars**: 13,103 · **Forks**: 327 · **Open issues**: 833 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 2 | 2 | 4 | 3 | 3 | 28 |
-| last60d | 2026-08-27 | 4 | 8 | 4 | 6 | 6 | 61 |
-| 90d | 2026-07-28 | 5 | 21 | 4 | 10 | 7 | 109 |
-| last180d | 2026-04-29 | 9 | 35 | 5 | 19 | 7 | 156 |
-| 360d | 2025-10-31 | 16 | 57 | 7 | 41 | 12 | 227 |
-| last720d | 2024-11-05 | 35 | 107 | 7 | 106 | 29 | 427 |
+| 30d | 2026-09-27 | 1 | 2 | 4 | 3 | 3 | 28 |
+| last60d | 2026-08-28 | 4 | 7 | 4 | 6 | 6 | 61 |
+| 90d | 2026-07-29 | 5 | 21 | 4 | 10 | 7 | 109 |
+| last180d | 2026-04-30 | 9 | 35 | 5 | 19 | 7 | 156 |
+| 360d | 2025-11-01 | 16 | 57 | 7 | 41 | 11 | 227 |
+| last720d | 2024-11-06 | 35 | 107 | 7 | 106 | 29 | 427 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Reported by **102** distros on [repology.org](https://repology.org/project/broot
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.60.2` | ⚠️ outdated |
-| Debian 14 | `1.57.0` | ⚠️ outdated |
+| Debian 14 | `1.60.2` | ⚠️ outdated |
 | Debian 13 | `1.46.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
 | Arch | `1.61.0` | ✅ latest |
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:54:30Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:19:57Z._
