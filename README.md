@@ -14,11 +14,11 @@ x install broot
 
 ## Code insight
 
-Total: **38,392** lines of code across **264** files in the top 5 languages.
+Total: **38,450** lines of code across **264** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 36,215 | 1,024 | 1,984 | 239 |
+| Rust | 36,273 | 1,020 | 1,987 | 239 |
 | Css | 704 | 20 | 42 | 3 |
 | Sh | 530 | 189 | 83 | 10 |
 | JavaScript | 440 | 11 | 13 | 3 |
@@ -26,13 +26,13 @@ Total: **38,392** lines of code across **264** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.5 / 10**
+Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.61.0` (2026-10-03)
-- **Last commit**: 2026-10-20
+- **Latest**: `v1.62.0` (2026-11-01)
+- **Last commit**: 2026-11-01
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 13,121 · **Forks**: 327 · **Open issues**: 833 · **Contributors**: 128
+- **Stars**: 13,122 · **Forks**: 327 · **Open issues**: 833 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 227 · **Merged PRs**: 291 · **Open PRs**: 11 · **Closed issues**: 738 · **Open issues**: 95 · **Commits**: 2159
+- **Releases**: 228 · **Merged PRs**: 291 · **Open PRs**: 9 · **Closed issues**: 739 · **Open issues**: 94 · **Commits**: 2162
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 2 | 4 | 2 | 2 | 28 |
-| last60d | 2026-09-02 | 4 | 5 | 4 | 5 | 3 | 61 |
-| 90d | 2026-08-03 | 5 | 21 | 4 | 10 | 7 | 109 |
-| last180d | 2026-05-05 | 9 | 35 | 5 | 19 | 7 | 156 |
-| 360d | 2025-11-06 | 15 | 55 | 7 | 40 | 11 | 227 |
-| last720d | 2024-11-11 | 35 | 107 | 7 | 106 | 29 | 427 |
+| 30d | 2026-10-03 | 2 | 2 | 2 | 2 | 1 | 26 |
+| last60d | 2026-09-03 | 5 | 4 | 2 | 5 | 3 | 48 |
+| 90d | 2026-08-04 | 6 | 21 | 2 | 11 | 6 | 109 |
+| last180d | 2026-05-06 | 10 | 34 | 3 | 20 | 6 | 158 |
+| 360d | 2025-11-07 | 16 | 54 | 5 | 40 | 10 | 226 |
+| last720d | 2024-11-12 | 36 | 107 | 5 | 107 | 28 | 430 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [broot_1.61.0.zip](https://github.com/Canop/broot/releases/download/v1.61.0/broot_1.61.0.zip) | 64.8 MiB | `other` |
+| [broot_1.62.0.zip](https://github.com/Canop/broot/releases/download/v1.62.0/broot_1.62.0.zip) | 65.0 MiB | `other` |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/broot). **25** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/broot). **4** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,11 +81,11 @@ Reported by **102** distros on [repology.org](https://repology.org/project/broot
 | Debian 14 | `1.60.2` | ⚠️ outdated |
 | Debian 13 | `1.46.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
-| Arch | `1.61.0` | ✅ latest |
-| Homebrew | `1.61.0` | ✅ latest |
-| Nix unstable | `1.61.0` | ✅ latest |
+| Arch | `1.61.0` | ⚠️ outdated |
+| Homebrew | `1.62.0` | ✅ latest |
+| Nix unstable | `1.61.0` | ⚠️ outdated |
 | Void | `1.56.2` | ⚠️ outdated |
-| Alpine edge | `1.61.0` | ✅ latest |
+| Alpine edge | `1.61.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.60.1` | ⚠️ outdated |
 
 ## Improve this data
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:11:48Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:13:45Z._
