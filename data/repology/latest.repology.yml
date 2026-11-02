@@ -1,9 +1,9 @@
 - repo: crates_io
   srcname: broot
   visiblename: broot
-  version: 1.60.2
+  version: 1.62.0
   origversion: null
-  status: outdated
+  status: newest
   summary: File browser and launcher
 - repo: openbsd
   srcname: sysutils/broot
@@ -11,18 +11,30 @@
   visiblename: sysutils/broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: new way to see and navigate directory trees
   maintainers:
     - ports@openbsd.org
   categories:
     - sysutils
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: broot
+  visiblename: broot
+  version: 1.16.2
+  origversion: 1.16.2-bp155.1.7
+  status: outdated
+  summary: A better way to navigate directories
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: chromebrew
   srcname: broot
   visiblename: broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   licenses:
     - MIT
@@ -111,7 +123,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Filesystem visualization and traversal tool
   licenses:
     - MIT
@@ -395,7 +407,7 @@
   visiblename: broot-doc
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Filesystem visualization and traversal tool (documentation)
   licenses:
     - MIT
@@ -536,7 +548,7 @@
   visiblename: broot-man
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Filesystem visualization and traversal tool (manual pages)
   licenses:
     - MIT
@@ -586,7 +598,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: New way to see and navigate directory trees
   maintainers:
     - jakub@jirutka.cz
@@ -599,7 +611,7 @@
   visiblename: broot-bash-completion
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Bash completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -612,7 +624,7 @@
   visiblename: broot-doc
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: New way to see and navigate directory trees (documentation)
   maintainers:
     - jakub@jirutka.cz
@@ -625,7 +637,7 @@
   visiblename: broot-fish-completion
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Fish completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -638,7 +650,7 @@
   visiblename: broot-zsh-completion
   version: 1.61.0
   origversion: 1.61.0-r0
-  status: newest
+  status: outdated
   summary: Zsh completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -667,7 +679,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-alt1
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   maintainers:
     - amakeenk@altlinux.org
@@ -682,7 +694,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-2
-  status: newest
+  status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -812,7 +824,7 @@
   visiblename: app-misc/broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   maintainers:
     - creideiki+gentoo-bugzilla@lysator.liu.se
@@ -834,7 +846,7 @@
 - repo: homebrew
   srcname: broot
   visiblename: broot
-  version: 1.61.0
+  version: 1.62.0
   origversion: null
   status: newest
   summary: New way to see and navigate directory trees
@@ -937,7 +949,7 @@
   visiblename: app-misc/broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   maintainers:
     - creideiki+gentoo-bugzilla@lysator.liu.se
@@ -962,7 +974,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   maintainers:
     - herbygillot@github
@@ -988,7 +1000,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-1
-  status: newest
+  status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -999,7 +1011,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-1
-  status: newest
+  status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -1063,24 +1075,12 @@
   visiblename: broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Interactive tree view, a fuzzy search, a balanced BFS descent and customizable commands
   maintainers:
     - dywedir@gra.red
   licenses:
     - MIT
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: broot
-  visiblename: broot
-  version: 1.16.2
-  origversion: 1.16.2-bp155.1.7
-  status: outdated
-  summary: A better way to navigate directories
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: broot
@@ -1116,7 +1116,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: 1.61.0-2
-  status: newest
+  status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -1180,7 +1180,7 @@
   visiblename: sysutils/broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: New way to see and navigate directory trees
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1251,7 +1251,7 @@
   subrepo: main
   binname: broot
   visiblename: broot
-  version: 1.61.0
+  version: 1.62.0
   origversion: null
   status: newest
   licenses:
@@ -1262,7 +1262,7 @@
   visiblename: broot
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: A new way to see and navigate directory trees
   maintainers:
     - jared@jaredcervantes.com
@@ -1276,7 +1276,7 @@
   visiblename: broot-dbginfo
   version: 1.61.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Debug symbols for broot
   maintainers:
     - jared@jaredcervantes.com
@@ -1288,7 +1288,7 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
+  version: 1.62.0
   origversion: null
   status: newest
   summary: A better way to navigate directories
