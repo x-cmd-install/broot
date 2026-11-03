@@ -9,26 +9,14 @@
   srcname: sysutils/broot
   binname: broot
   visiblename: sysutils/broot
-  version: 1.61.0
+  version: 1.62.0
   origversion: null
-  status: outdated
+  status: newest
   summary: new way to see and navigate directory trees
   maintainers:
     - ports@openbsd.org
   categories:
     - sysutils
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: broot
-  visiblename: broot
-  version: 1.16.2
-  origversion: 1.16.2-bp155.1.7
-  status: outdated
-  summary: A better way to navigate directories
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: chromebrew
   srcname: broot
   visiblename: broot
@@ -677,9 +665,9 @@
     - broot
     - broot-debuginfo
   visiblename: broot
-  version: 1.61.0
-  origversion: 1.61.0-alt1
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-alt1
+  status: newest
   summary: A new way to see and navigate directory trees
   maintainers:
     - amakeenk@altlinux.org
@@ -692,9 +680,9 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
-  origversion: 1.61.0-2
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-1
+  status: newest
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
@@ -775,9 +763,9 @@
   subrepo: SuperHeron-misc
   srcname: dev-rust/broot
   visiblename: dev-rust/broot
-  version: 1.60.2
+  version: 1.62.0
   origversion: null
-  status: outdated
+  status: newest
   summary: A better way to navigate directories
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -972,9 +960,9 @@
   srcname: sysutils/broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
+  version: 1.62.0
   origversion: null
-  status: outdated
+  status: newest
   summary: A new way to see and navigate directory trees
   maintainers:
     - herbygillot@github
@@ -987,8 +975,8 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.60.0
-  origversion: 1.60.0-1
+  version: 1.25.1
+  origversion: 1.25.1-1
   status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
@@ -998,8 +986,8 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
-  origversion: 1.61.0-1
+  version: 1.25.2
+  origversion: 1.25.2-1
   status: outdated
   summary: Fuzzy Search + tree + cd
   licenses:
@@ -1081,6 +1069,18 @@
     - dywedir@gra.red
   licenses:
     - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: broot
+  visiblename: broot
+  version: 1.16.2
+  origversion: 1.16.2-bp155.1.7
+  status: outdated
+  summary: A better way to navigate directories
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: broot
@@ -1114,14 +1114,14 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
-  origversion: 1.61.0-2
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-1
+  status: newest
   summary: Fuzzy Search + tree + cd
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-broot
   binnames:
     - librust-broot-dev
@@ -1136,7 +1136,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-broot
   binnames:
     - librust-broot-dev
