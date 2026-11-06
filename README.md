@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,131 · **Forks**: 327 · **Open issues**: 833 · **Contributors**: 128
+- **Stars**: 13,134 · **Forks**: 328 · **Open issues**: 833 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 2 | 2 | 2 | 1 | 26 |
-| last60d | 2026-09-06 | 4 | 4 | 2 | 5 | 3 | 48 |
-| 90d | 2026-08-07 | 6 | 19 | 2 | 10 | 6 | 109 |
-| last180d | 2026-05-09 | 10 | 34 | 3 | 19 | 6 | 158 |
-| 360d | 2025-11-10 | 15 | 53 | 5 | 40 | 10 | 226 |
-| last720d | 2024-11-15 | 36 | 107 | 5 | 107 | 28 | 430 |
+| 30d | 2026-10-07 | 1 | 2 | 2 | 1 | 1 | 26 |
+| last60d | 2026-09-07 | 4 | 4 | 2 | 4 | 3 | 48 |
+| 90d | 2026-08-08 | 6 | 17 | 2 | 10 | 6 | 109 |
+| last180d | 2026-05-10 | 10 | 34 | 3 | 19 | 6 | 158 |
+| 360d | 2025-11-11 | 15 | 53 | 5 | 40 | 10 | 226 |
+| last720d | 2024-11-16 | 36 | 107 | 5 | 107 | 28 | 430 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/broot). **11** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/broot). **13** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:51:31Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:50:53Z._
