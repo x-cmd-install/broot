@@ -1,18 +1,16 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-broot
-  binnames:
-    - librust-broot-dev
-    - broot
-  visiblename: rust-broot
-  version: 1.57.0
-  origversion: 1.57.0+ds-3
+- repo: alpine_3_17
+  subrepo: community
+  srcname: broot
+  binname: broot-zsh-completion
+  visiblename: broot-zsh-completion
+  version: 1.16.2
+  origversion: 1.16.2-r0
   status: outdated
+  summary: Zsh completions for broot
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - noisycoil@debian.org
-  categories:
-    - misc
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: broot
@@ -61,19 +59,6 @@
   origversion: 1.16.2-r0
   status: outdated
   summary: New way to see and navigate directory trees (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: broot
-  binname: broot-zsh-completion
-  visiblename: broot-zsh-completion
-  version: 1.16.2
-  origversion: 1.16.2-r0
-  status: outdated
-  summary: Zsh completions for broot
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -560,9 +545,9 @@
   srcname: broot
   binname: broot
   visiblename: broot
-  version: 1.61.0
-  origversion: 1.61.0-r0
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-r0
+  status: newest
   summary: New way to see and navigate directory trees
   maintainers:
     - jakub@jirutka.cz
@@ -573,9 +558,9 @@
   srcname: broot
   binname: broot-bash-completion
   visiblename: broot-bash-completion
-  version: 1.61.0
-  origversion: 1.61.0-r0
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-r0
+  status: newest
   summary: Bash completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -586,9 +571,9 @@
   srcname: broot
   binname: broot-doc
   visiblename: broot-doc
-  version: 1.61.0
-  origversion: 1.61.0-r0
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-r0
+  status: newest
   summary: New way to see and navigate directory trees (documentation)
   maintainers:
     - jakub@jirutka.cz
@@ -599,9 +584,9 @@
   srcname: broot
   binname: broot-fish-completion
   visiblename: broot-fish-completion
-  version: 1.61.0
-  origversion: 1.61.0-r0
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-r0
+  status: newest
   summary: Fish completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -612,9 +597,9 @@
   srcname: broot
   binname: broot-zsh-completion
   visiblename: broot-zsh-completion
-  version: 1.61.0
-  origversion: 1.61.0-r0
-  status: outdated
+  version: 1.62.0
+  origversion: 1.62.0-r0
+  status: newest
   summary: Zsh completions for broot
   maintainers:
     - jakub@jirutka.cz
@@ -848,6 +833,21 @@
   origversion: null
   status: rolling
   summary: New way to see and navigate directory trees
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-broot
+  binnames:
+    - librust-broot-dev
+    - broot
+  visiblename: rust-broot
+  version: 1.57.0
+  origversion: 1.57.0+ds-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - noisycoil@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-misc/broot
   visiblename: app-misc/broot
@@ -1033,15 +1033,6 @@
   summary: Interactive tree view, a fuzzy search, a balanced BFS descent and customizable commands
   maintainers:
     - dywedir@gra.red
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: broot
-  visiblename: broot
-  version: 1.62.0
-  origversion: null
-  status: newest
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -1256,6 +1247,15 @@
     - GPL-2.0-only AND MIT AND MPL-2.0
   categories:
     - File tools
+- repo: scoop
+  subrepo: main
+  binname: broot
+  visiblename: broot
+  version: 1.62.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: solus
   srcname: broot
   binname: broot
