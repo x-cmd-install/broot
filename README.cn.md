@@ -30,9 +30,9 @@ x install broot
 
 评分最低的几项:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install broot
 
 ## 流行度
 
-- **Star**: 13,136 · **Fork**: 328 · **开放 issue**: 833 · **贡献者**: 128
+- **Star**: 13,139 · **Fork**: 328 · **开放 issue**: 833 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install broot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 2 | 2 | 1 | 1 | 26 |
-| last60d | 2026-09-09 | 3 | 4 | 2 | 3 | 3 | 48 |
-| 90d | 2026-08-10 | 6 | 16 | 2 | 10 | 6 | 109 |
-| last180d | 2026-05-12 | 10 | 34 | 3 | 19 | 6 | 158 |
-| 360d | 2025-11-13 | 15 | 53 | 5 | 40 | 10 | 226 |
-| last720d | 2024-11-18 | 36 | 107 | 5 | 107 | 28 | 429 |
+| 30d | 2026-10-10 | 1 | 1 | 2 | 1 | 0 | 8 |
+| last60d | 2026-09-10 | 3 | 4 | 2 | 3 | 3 | 45 |
+| 90d | 2026-08-11 | 6 | 16 | 2 | 8 | 6 | 90 |
+| last180d | 2026-05-13 | 10 | 34 | 3 | 18 | 6 | 153 |
+| 360d | 2025-11-14 | 15 | 53 | 5 | 40 | 10 | 224 |
+| last720d | 2024-11-19 | 36 | 107 | 5 | 107 | 28 | 429 |
 
 ## Release 资产
 
@@ -73,7 +73,7 @@ x install broot
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/broot) 上共有 **103** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**79** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/broot) 上共有 **104** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**78** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -97,4 +97,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T06:15:42Z._
+_数据快照: `data/card/261109.yml` · 2026-11-09T06:33:00Z._
