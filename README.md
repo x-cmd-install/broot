@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,154 · **Forks**: 328 · **Open issues**: 834 · **Contributors**: 128
+- **Stars**: 13,159 · **Forks**: 328 · **Open issues**: 834 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 228 · **Merged PRs**: 291 · **Open PRs**: 9 · **Closed issues**: 739 · **Open issues**: 95 · **Commits**: 2169
+- **Releases**: 228 · **Merged PRs**: 291 · **Open PRs**: 9 · **Closed issues**: 740 · **Open issues**: 94 · **Commits**: 2169
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 1 | 1 | 0 | 1 | 1 | 15 |
-| last60d | 2026-09-15 | 3 | 4 | 2 | 3 | 4 | 52 |
-| 90d | 2026-08-16 | 6 | 10 | 2 | 7 | 7 | 97 |
-| last180d | 2026-05-18 | 8 | 34 | 3 | 15 | 7 | 160 |
-| 360d | 2025-11-19 | 15 | 53 | 5 | 39 | 11 | 231 |
-| last720d | 2024-11-24 | 36 | 107 | 5 | 107 | 29 | 436 |
+| 30d | 2026-10-16 | 1 | 1 | 0 | 2 | 0 | 15 |
+| last60d | 2026-09-16 | 3 | 4 | 2 | 4 | 3 | 52 |
+| 90d | 2026-08-17 | 6 | 10 | 2 | 8 | 6 | 97 |
+| last180d | 2026-05-19 | 8 | 34 | 3 | 16 | 6 | 160 |
+| 360d | 2025-11-20 | 15 | 53 | 5 | 39 | 9 | 231 |
+| last720d | 2024-11-25 | 36 | 107 | 5 | 108 | 28 | 436 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:33:27Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:38:26Z._
