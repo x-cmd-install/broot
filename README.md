@@ -31,7 +31,7 @@ Overall score: **3.4 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,159 · **Forks**: 328 · **Open issues**: 834 · **Contributors**: 128
+- **Stars**: 13,158 · **Forks**: 328 · **Open issues**: 834 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 1 | 0 | 2 | 0 | 15 |
-| last60d | 2026-09-16 | 3 | 4 | 2 | 4 | 3 | 52 |
-| 90d | 2026-08-17 | 6 | 10 | 2 | 8 | 6 | 97 |
-| last180d | 2026-05-19 | 8 | 34 | 3 | 16 | 6 | 160 |
-| 360d | 2025-11-20 | 15 | 53 | 5 | 39 | 9 | 231 |
-| last720d | 2024-11-25 | 36 | 107 | 5 | 108 | 28 | 436 |
+| 30d | 2026-10-17 | 1 | 1 | 0 | 2 | 0 | 10 |
+| last60d | 2026-09-17 | 3 | 4 | 2 | 4 | 3 | 49 |
+| 90d | 2026-08-18 | 6 | 9 | 2 | 8 | 6 | 86 |
+| last180d | 2026-05-20 | 8 | 34 | 3 | 16 | 6 | 160 |
+| 360d | 2025-11-21 | 15 | 53 | 5 | 39 | 9 | 229 |
+| last720d | 2024-11-26 | 36 | 107 | 5 | 108 | 27 | 436 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Reported by **104** distros on [repology.org](https://repology.org/project/broot
 | Debian 13 | `1.46.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
 | Arch | `1.62.0` | ✅ latest |
-| Homebrew | `1.62.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `1.61.0` | ⚠️ outdated |
 | Void | `1.56.2` | ⚠️ outdated |
 | Alpine edge | `1.62.0` | ✅ latest |
@@ -97,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:38:26Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:51:46Z._
