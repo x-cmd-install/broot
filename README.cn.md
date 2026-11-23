@@ -30,9 +30,9 @@ x install broot
 
 评分最低的几项:
 
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install broot
 
 ## 流行度
 
-- **Star**: 13,180 · **Fork**: 329 · **开放 issue**: 834 · **贡献者**: 128
+- **Star**: 13,188 · **Fork**: 329 · **开放 issue**: 834 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install broot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 1 | 0 | 0 | 1 | 0 | 10 |
-| last60d | 2026-09-23 | 3 | 3 | 2 | 4 | 3 | 49 |
-| 90d | 2026-08-24 | 5 | 8 | 2 | 7 | 6 | 86 |
-| last180d | 2026-05-26 | 8 | 33 | 3 | 16 | 6 | 160 |
-| 360d | 2025-11-27 | 15 | 53 | 5 | 38 | 9 | 229 |
-| last720d | 2024-12-02 | 36 | 106 | 5 | 107 | 26 | 436 |
+| 30d | 2026-10-24 | 1 | 0 | 0 | 1 | 0 | 10 |
+| last60d | 2026-09-24 | 3 | 3 | 2 | 4 | 3 | 39 |
+| 90d | 2026-08-25 | 5 | 8 | 2 | 7 | 6 | 72 |
+| last180d | 2026-05-27 | 8 | 33 | 3 | 16 | 6 | 152 |
+| 360d | 2025-11-28 | 15 | 53 | 5 | 38 | 9 | 225 |
+| last720d | 2024-12-03 | 36 | 106 | 5 | 107 | 26 | 436 |
 
 ## Release 资产
 
@@ -97,4 +97,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261122.yml` · 2026-11-22T06:59:57Z._
+_数据快照: `data/card/261123.yml` · 2026-11-23T08:55:51Z._
