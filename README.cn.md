@@ -48,7 +48,7 @@ x install broot
 
 ## 流行度
 
-- **Star**: 13,204 · **Fork**: 329 · **开放 issue**: 834 · **贡献者**: 128
+- **Star**: 13,215 · **Fork**: 331 · **开放 issue**: 834 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,18 +58,35 @@ x install broot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-09-27 | 2 | 2 | 2 | 4 | 3 | 0 |
-| 90d | 2026-08-28 | 5 | 7 | 2 | 7 | 6 | 0 |
-| last180d | 2026-05-30 | 8 | 30 | 3 | 16 | 6 | 0 |
-| 360d | 2025-12-01 | 15 | 53 | 5 | 37 | 9 | 0 |
-| last720d | 2024-12-06 | 36 | 106 | 5 | 107 | 26 | 435 |
+| 30d | 2026-10-28 | 1 | 0 | 0 | 1 | 0 | 10 |
+| last60d | 2026-09-28 | 2 | 2 | 2 | 3 | 3 | 39 |
+| 90d | 2026-08-29 | 5 | 7 | 2 | 7 | 6 | 72 |
+| last180d | 2026-05-31 | 8 | 29 | 3 | 16 | 6 | 152 |
+| 360d | 2025-12-02 | 15 | 52 | 5 | 37 | 9 | 225 |
+| last720d | 2024-12-07 | 36 | 106 | 5 | 107 | 26 | 435 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [broot_1.62.0.zip](https://github.com/Canop/broot/releases/download/v1.62.0/broot_1.62.0.zip) | 65.0 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/broot) 上共有 **104** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**76** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.60.2` | ⚠️ outdated |
+| Debian 14 | `1.60.2` | ⚠️ outdated |
+| Debian 13 | `1.46.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
+| Arch | `1.62.0` | ✅ latest |
+| Homebrew | `1.62.0` | ✅ latest |
+| Nix unstable | `1.61.0` | ⚠️ outdated |
+| Void | `1.56.2` | ⚠️ outdated |
+| Alpine edge | `1.62.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.62.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -80,4 +97,4 @@ broot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:26:34Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T09:03:14Z._

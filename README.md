@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,204 · **Forks**: 329 · **Open issues**: 834 · **Contributors**: 128
+- **Stars**: 13,215 · **Forks**: 331 · **Open issues**: 834 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,18 +58,35 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-09-27 | 2 | 2 | 2 | 4 | 3 | 0 |
-| 90d | 2026-08-28 | 5 | 7 | 2 | 7 | 6 | 0 |
-| last180d | 2026-05-30 | 8 | 30 | 3 | 16 | 6 | 0 |
-| 360d | 2025-12-01 | 15 | 53 | 5 | 37 | 9 | 0 |
-| last720d | 2024-12-06 | 36 | 106 | 5 | 107 | 26 | 435 |
+| 30d | 2026-10-28 | 1 | 0 | 0 | 1 | 0 | 10 |
+| last60d | 2026-09-28 | 2 | 2 | 2 | 3 | 3 | 39 |
+| 90d | 2026-08-29 | 5 | 7 | 2 | 7 | 6 | 72 |
+| last180d | 2026-05-31 | 8 | 29 | 3 | 16 | 6 | 152 |
+| 360d | 2025-12-02 | 15 | 52 | 5 | 37 | 9 | 225 |
+| last720d | 2024-12-07 | 36 | 106 | 5 | 107 | 26 | 435 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [broot_1.62.0.zip](https://github.com/Canop/broot/releases/download/v1.62.0/broot_1.62.0.zip) | 65.0 MiB | `other` |
+
+## Distribution status
+
+Reported by **104** distros on [repology.org](https://repology.org/project/broot). **23** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.60.2` | ⚠️ outdated |
+| Debian 14 | `1.60.2` | ⚠️ outdated |
+| Debian 13 | `1.46.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.55.0` | ⚠️ outdated |
+| Arch | `1.62.0` | ✅ latest |
+| Homebrew | `1.62.0` | ✅ latest |
+| Nix unstable | `1.61.0` | ⚠️ outdated |
+| Void | `1.56.2` | ⚠️ outdated |
+| Alpine edge | `1.62.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.62.0` | ✅ latest |
 
 ## Improve this data
 
@@ -80,4 +97,4 @@ Install metadata for broot lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:26:34Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T09:03:14Z._
